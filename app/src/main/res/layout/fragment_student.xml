@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:buttonTint="@color/get_code_button"
+        android:text="@android:string/selectAll"
+        android:id="@+id/select_all_checkbox"
+        android:layoutDirection="rtl"
+        android:layout_gravity="end"/>
+
+    <Button
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send_button"
+        android:textColor="@android:color/white"
+        android:background="@color/get_code_button"
+        android:layout_alignParentBottom="true"
+        android:text="@string/send_button_text"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/select_all_checkbox"
+        android:layout_above="@id/send_button"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/student_recycler_view"/>
+</RelativeLayout>

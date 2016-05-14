@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="32dp"
+    tools:context="com.purplesq.sagar.tourmanager.SendMessageActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/events_element_padding"
+    android:textColor="@android:color/white"
+    android:gravity="left|start"
+    android:text="To"/>
+ <EditText
+     android:id="@+id/student_list"
+     android:padding="@dimen/events_element_padding"
+
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textColor="@android:color/white"
+        android:background="@drawable/code_edit_background"
+     android:editable="false"/>
+    <TextView
+        android:padding="@dimen/events_element_padding"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+
+        android:text="@string/message_textview"/>
+  <EditText
+      android:padding="@dimen/events_element_padding"
+
+      android:id="@+id/message_edittext"
+      android:gravity="top"
+      android:background="@drawable/code_edit_background"
+
+      android:layout_width="match_parent"
+      android:textColor="@android:color/white"
+
+      android:layout_height="200dp" />
+    <Button
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/send_message_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:background="@color/get_code_button"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/send_button_text"/>
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:background="@color/negative_button_background"
+        android:layout_height="wrap_content"
+        android:text="@android:string/cancel"/>
+
+</LinearLayout>

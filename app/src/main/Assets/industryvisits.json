@@ -1,0 +1,289 @@
+{
+  "events": [
+    {
+      "id": "NTCB",
+      "name": "Shahrukh Khan's Way Of Buying Groceries",
+      "overview": "Visit Big Basket, India's largest online grocery store which is using technology to make buying groceries fast and convenient. In a tour through its thriving warehouse, discover what goes behind satisfying 11,000 customers every day!",
+      "city": "Mumbai",
+      "days": 1,
+      "thumbnail": "https://s3-ap-southeast-1.amazonaws.com/purplesq/media/images/new+thumbnails/bb_thumb.jpg",
+      "itineraries": [
+        {
+          "date": 1452277800000,
+          "day": 1,
+          "title": "Assemble",
+          "start_time": "11:30",
+          "description": "Central Ave, Hiranandani Gardens, \nPowai, Mumbai, Maharashtra 400076",
+          "location": {
+            "lat": "19.1163372",
+            "lng": "72.9072174"
+          }
+        },
+        {
+          "date": 1452277800000,
+          "day": 1,
+          "title": "About IV",
+          "start_time": "12:30",
+          "description": "In the visit to the leader in India's online grocery market learn about its business model, inventory management techniques and innovative supply chain management. Get insights into the marketing strategies that makes it stand out in the buzzing hyperlocal space. Understand how it uses and maintains a satisfied workforce. Learn how it deals with the staggering challenges of the online grocery business. Field your questions to the experts in an interactive Q&A session.",
+          "location": {
+            "lat": "19.161215",
+            "lng": "72.939336"
+          }
+        },
+        {
+          "date": 1452277800000,
+          "day": 1,
+          "title": "Drop at Thane",
+          "start_time": "16:30",
+          "description": "Day Ends With Refreshment and Drop at Thane Station",
+          "location": {
+            "lat": "19.1860655",
+            "lng": "72.975952"
+          }
+        }
+      ],
+      "students": [
+        {
+          "name": "Nishant Patil",
+          "email": "nishant@purplesq.com",
+          "phone": "9975851484"
+        },
+        {
+          "name": "Patrick Powell",
+          "email": "ppowell1@imdb.com",
+          "phone": "716061138$"
+        },
+        {
+          "name": "Doris Hunter",
+          "email": "dhunter2@sohu.com",
+          "phone": "908820405$"
+        },
+        {
+          "name": "Harry Butler",
+          "email": "hbutler3@theglobeandmail.com",
+          "phone": "990941948$"
+        },
+        {
+          "name": "Willie Sanchez",
+          "email": "wsanchez4@bloglines.com",
+          "phone": "976394882$"
+        },
+        {
+          "name": "Heather Cunningham",
+          "email": "hcunningham5@tumblr.com",
+          "phone": "900035035$"
+        },
+        {
+          "name": "Gerald Cook",
+          "email": "gcook6@themeforest.net",
+          "phone": "914954136$"
+        },
+        {
+          "name": "James Gray",
+          "email": "jgray7@rambler.ru",
+          "phone": "987335377$"
+        },
+        {
+          "name": "Howard Hunt",
+          "email": "hhunt8@fotki.com",
+          "phone": "909673238$"
+        },
+        {
+          "name": "Debra Matthews",
+          "email": "dmatthews9@artisteer.com",
+          "phone": "953948443$"
+        }
+      ]
+    },
+    {
+      "id": "QSOY",
+      "name": "Introduction To Capital Markets With NSE",
+      "overview": "National Stock Exchange (NSE), established in 1992, is the leading stock exchange of India. It offers trading, clearing and settlement services in equity derivatives, debt and currency derivatives segments. Visit the iconic NSE campus to gain significant insights into the working of capital markets.",
+      "city": "Mumbai",
+      "days": 1,
+      "thumbnail": "https://s3-ap-southeast-1.amazonaws.com/purplesq/media/images/New_format_thumbnails/NSE.png",
+      "itineraries": [
+        {
+          "date": 1452796200000,
+          "day": 1,
+          "title": "Assemble",
+          "start_time": "13:00",
+          "description": "Central Ave, Hiranandani Gardens, \nPowai, Mumbai, Maharashtra 400076",
+          "location": {
+            "lat": "19.1163372",
+            "lng": "72.9072174"
+          }
+        },
+        {
+          "date": 1452277800000,
+          "day": 1,
+          "title": "About IV",
+          "start_time": "14:00",
+          "description": "Get a simplified overview of the National Stock Exchange and the broad capital market. Be introduced to the equity derivatives market and receive an explanation of the futures and options market with a view of the live trading terminal. Understand the clearing and settlement procedures and the market surveillance and monitoring that goes on at the stock exchange. Get a broader outlook of career options in capital markets and learn about NCFM and NCCMP-the certificate programs offered by NSE.",
+          "location": {
+            "lat": "19.079942",
+            "lng": "72.884931"
+          }
+        },
+        {
+          "date": 1452277800000,
+          "day": 1,
+          "title": "Drop at Dadar",
+          "start_time": "16:30",
+          "description": "Day Ends With Refreshment and Drop at Dadar Station",
+          "location": {
+            "lat": "19.018110",
+            "lng": "72.84355"
+          }
+        }
+      ],
+      "students": [
+        {
+          "name": "Nishant Patil",
+          "email": "nishant@purplesq.com",
+          "phone": "9975851484"
+        },
+        {
+          "name": "Alan Mason",
+          "email": "amason1@tmall.com",
+          "phone": "108666557$"
+        },
+        {
+          "name": "Amy Davis",
+          "email": "adavis2@whitehouse.gov",
+          "phone": "139777941$"
+        },
+        {
+          "name": "Daniel Gonzales",
+          "email": "dgonzales3@oaic.gov.au",
+          "phone": "738816497$"
+        },
+        {
+          "name": "Philip Lane",
+          "email": "plane4@hexun.com",
+          "phone": "296055430$"
+        },
+        {
+          "name": "Lisa Welch",
+          "email": "lwelch5@cornell.edu",
+          "phone": "811389054$"
+        },
+        {
+          "name": "Wanda Howell",
+          "email": "whowell6@upenn.edu",
+          "phone": "072909700$"
+        },
+        {
+          "name": "Elizabeth Moore",
+          "email": "emoore7@printfriendly.com",
+          "phone": "478646372$"
+        },
+        {
+          "name": "William Ford",
+          "email": "wford8@reuters.com",
+          "phone": "762858115$"
+        },
+        {
+          "name": "Patrick Moore",
+          "email": "pmoore9@tuttocitta.it",
+          "phone": "033225936$"
+        }
+      ]
+    },
+    {
+      "id": "RVPX",
+      "name": "Visit Times Of India's Printing Press",
+      "overview": "Visit the world’s largest selling English newspaper and learn about the processes that go into the general and technical operations at the Times of India printing press, the largest printing press in Asia.",
+      "city": "Mumbai",
+      "days": 1,
+      "thumbnail": "https://s3-ap-southeast-1.amazonaws.com/purplesq/media/images/New_format_thumbnails/Times+of+India-1.png",
+      "itineraries": [
+        {
+          "date": 1452882600000,
+          "day": 1,
+          "title": "Assemble",
+          "start_time": "13:00",
+          "description": "Central Ave, Hiranandani Gardens, \nPowai, Mumbai, Maharashtra 400076",
+          "location": {
+            "lat": "19.1163372",
+            "lng": "72.9072174"
+          }
+        },
+        {
+          "date": 1452882600000,
+          "day": 1,
+          "title": "About IV",
+          "start_time": "14:00",
+          "description": "Observe the general operations of the TOI printing press while gaining an understanding of the technical aspects of mass printing. Get insights into the logistics and supply chain management of the company. Embark on an informative tour of the plant with the vertical heads and validate your learning by interacting with the plant heads, engineers/technical staff while understanding industry’s expectations from students.",
+          "location": {
+            "lat": "19.195213",
+            "lng": "72.86124"
+          }
+        },
+        {
+          "date": 1452882600000,
+          "day": 1,
+          "title": "Drop at Borivali",
+          "start_time": "16:30",
+          "description": "Day Ends With Refreshment and Drop at Borivali Station",
+          "location": {
+            "lat": "19.230266",
+            "lng": "72.85767"
+          }
+        }
+      ],
+      "students": [
+        {
+          "name": "Nishant Patil",
+          "email": "nishant@purplesq.com",
+          "phone": "9975851484"
+        },
+        {
+          "name": "Karen Ramirez",
+          "email": "kramirez1@mozilla.com",
+          "phone": "437926158$"
+        },
+        {
+          "name": "Debra Murphy",
+          "email": "dmurphy2@cbc.ca",
+          "phone": "191750848$"
+        },
+        {
+          "name": "Ronald Dixon",
+          "email": "rdixon3@nymag.com",
+          "phone": "069355647$"
+        },
+        {
+          "name": "Ruby Jones",
+          "email": "rjones4@booking.com",
+          "phone": "352068672$"
+        },
+        {
+          "name": "Helen Adams",
+          "email": "hadams5@census.gov",
+          "phone": "531635110$"
+        },
+        {
+          "name": "Joan Garrett",
+          "email": "jgarrett6@harvard.edu",
+          "phone": "836305822$"
+        },
+        {
+          "name": "Nancy Stone",
+          "email": "nstone7@blog.com",
+          "phone": "848480235$"
+        },
+        {
+          "name": "Jean Myers",
+          "email": "jmyers8@guardian.co.uk",
+          "phone": "270236996$"
+        },
+        {
+          "name": "Martin Cruz",
+          "email": "mcruz9@myspace.com",
+          "phone": "560192955$"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TourManager</string>
+    <string name="event_tab_title">Event</string>
+    <string name="student_tab_title">Student</string>
+    <string name="select_all_checkbox_text">Select All</string>
+    <string name="code_textview">Enter Code</string>
+    <string name="event_button">GET EVENT</string>
+    <string name="title_activity_event_details">EventDetailsActivity</string>
+    <string name="overview_text">Overview</string>
+    <string name="itineraries_text">Itineraies</string>
+    <string name="send_button_text">SEND</string>
+    <string name="message_textview">Messsage</string>
+    <string name="overview_title">Overview</string>
+    <string name="location_text">Location</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

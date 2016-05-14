@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Normal"
+        android:id="@+id/menu_item_normal"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Hybrid"
+        android:id="@+id/menu_item_hybrid"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_item_terrain"
+        android:title="Terrain"
+        app:showAsAction="ifRoom" />
+    <item android:title="Satelite"
+        android:id="@+id/menu_item_satelite"
+        app:showAsAction="ifRoom"/>
+</menu>

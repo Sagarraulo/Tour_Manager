@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    app:cardBackgroundColor="#3A4959"
+    app:cardElevation="16dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/industry_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_industry_white_24dp" />
+
+        <TextView
+            android:id="@+id/eventname_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/industry_image"
+            android:layout_toRightOf="@id/industry_image"
+            android:layout_alignBottom="@id/industry_image"
+            android:padding="@dimen/events_element_padding"
+            android:textColor="@android:color/white"
+
+            />
+
+        <ImageView
+            android:id="@+id/event_image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/industry_image"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/event_tab_title" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/date_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/event_image"
+            android:background="#7f000000"
+            android:orientation="horizontal"
+            tools:showIn="@layout/fragment_event">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_stat_notification_event_available" />
+
+            <TextView
+
+                android:id="@+id/event_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/events_element_padding"
+                android:text="gjhgjjh"
+
+                android:textColor="@android:color/white" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="15dp"
+                android:layout_margin="@dimen/events_element_padding"
+                android:background="@android:color/darker_gray" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_stat_action_alarm_on" />
+
+            <TextView
+                android:id="@+id/event_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:padding="@dimen/events_element_padding"
+
+                android:text="mbbkbgkdghdkgkhg"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_day"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="0dp"
+            android:text="@string/overview_title"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/event_overview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/overview"
+            android:padding="@dimen/events_element_padding"
+            android:textColor="@android:color/white" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/event_overview"
+            android:background="@color/get_code_button"
+            android:padding="@dimen/events_element_padding" />
+       <TextView
+            android:id="@+id/itineraies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:layout_below="@id/event_overview"
+            android:layout_margin="@dimen/events_element_padding"
+            android:text="@string/itineraries_text"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_below="@id/itineraies"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical"
+            android:id="@+id/itineraies_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <View
+            android:id="@+id/h_bar2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/itineraies_detail"
+            android:background="@color/get_code_button"
+            android:padding="@dimen/events_element_padding" />
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/location_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/h_bar2"
+            android:padding="@dimen/events_element_padding"
+            android:src="@drawable/ic_stat_action_room"
+ />
+        <TextView
+            android:layout_margin="10dp"
+            android:id="@+id/location"
+            android:layout_toEndOf="@id/location_icon"
+            android:layout_toRightOf="@id/location_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/h_bar2"
+            android:padding="@dimen/events_element_padding"
+            android:text="@string/location_text"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+    </ScrollView>
+</android.support.v7.widget.CardView>
