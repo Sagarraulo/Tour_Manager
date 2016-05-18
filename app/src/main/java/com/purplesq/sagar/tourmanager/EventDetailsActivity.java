@@ -40,13 +40,16 @@ public class EventDetailsActivity extends AppCompatActivity {
             if(position==0)
             {return EventFragment.newInstance(mevent);}
             else
-            {return StudentFragment.newInstance(mevent.students);}
+            {return StudentFragment.newInstance(mevent.students);
+            //skdkkfkkkjkjkjj
+            }
         }
 
         @Override
         public CharSequence getPageTitle(int position) {
             if(position==0)
-            {return getString(R.string.event_tab_title);}
+            {return getString(R.string.event_tab_title);
+            }
             else
             {return getString(R.string.student_tab_title);}
         }
